@@ -10,7 +10,8 @@ export default defineConfig({
   resolve:{
     alias:{
       "@": path.resolve(__dirname, "./src"),
-    }
+    },
+    base: '/bibhut-portfolio/', // e.g., '/myportfolio/'
   }
 })
 
