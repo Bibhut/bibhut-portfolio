@@ -7,7 +7,7 @@ import { NotFoundPage } from "./pages/not-found"
 function App() {
   return (
     <>
-      <HashRouter>
+      <HashRouter basename="/">
         <Routes>
           <Route index element= {<HomePage />} />
           <Route  path = "*" element = {<NotFoundPage />}/>
