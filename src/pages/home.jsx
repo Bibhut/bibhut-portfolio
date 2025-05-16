@@ -1,4 +1,5 @@
 import { AboutSection } from "../components/AboutSection"
+import { ContactSection } from "../components/ContactSection"
 import { HeroSection } from "../components/HeroSection"
 import { Navbar } from "../components/Navbar"
 import { ProjectsSection } from "../components/ProjectSection"
@@ -8,7 +9,9 @@ import { ThemeToggle } from "../components/ThemeToggle"
 
 
 export const HomePage = () => {
-    return <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+    return <div className="min-h-screen bg-background text-foreground overflow-x-hidden" 
+           
+    >
 
          {/* Theme Toggle */}
 
@@ -24,6 +27,7 @@ export const HomePage = () => {
             <AboutSection />
             <SkillsSection />
             <ProjectsSection />
+            <ContactSection />
         </main>
           {/* Footer */}
     </div>
